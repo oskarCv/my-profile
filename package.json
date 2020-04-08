@@ -7,19 +7,18 @@
   "author": "Oscar Manuel Chavez Villalvazo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oskarCv.github.io/profile_web",
+  "homepage": "https://oskarCv.github.io/my-profile",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^2.2.0",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    "cross-env": "^5.0.5",
-    "docker": "^1.0.0",
-    "gh-pages": "^2.2.0",
     "plotly.js": "^1.52.3",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-file-download": "^0.3.5",
     "react-plotly.js": "^2.4.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.0",
@@ -28,11 +27,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "fix-memory-limit": "cross-env LIMIT=2048 increase-memory-limit",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

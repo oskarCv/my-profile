@@ -1,5 +1,5 @@
 const name = 'Oscar Manuel Chavez Villalvazo';
-const profileImg = '../public/img/perfil.jpg';
+const profileImg = '.././img/perfil.jpeg';
 const resume = '.././data/Oscar-Chavez-cv-04-03-20.pdf';
 export const MyInfo = [
   {
